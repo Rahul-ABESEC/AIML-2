@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration form</title>
+</head>
+<body style="background-image: url(./pinkbg.jpg);">
+    <h1 align="center" style="color: rgb(245, 36, 207);">STUDENT REGISTRATION FORM</h1><hr><br>
+   <form align="center"  method="post" action="#">
+<label for="name">Student Name : </label>
+<input type="text" id="name" name="fullname" placeholder="Enter Your Name" required><br><br>
+<label for="Name" >Father's Name : </label>
+<input type="text" id="Name" name="full name" placeholder="Enter Your Father's Name" required><br><br>
+<label for="phone">Phone No : </label>
+<input type="tel" id="phone" name="phone no" placeholder="Enter Mobile No." required><br><br>
+<label for="email">Email Address : </label>
+<input type="email" id="email" placeholder="Enter Valid Email Id" name="email">
+<BR><BR>
+    <label for="password">Enter Password</label>
+<input type="password" id="password" name="Password" placeholder="Enter password"><br><br>
+<label for="DOB">Date Of Birth : </label>
+<input type="date" id="DOB" placeholder="D-O-B">
+<br>
+<br>
+<label  >Select Gender :</label>
+<input type="radio" name="gender"  value="male" >Male
+<input type="radio" name="gender"  value="female"> Female <br><br>
+<label>Branch : </label>
+<input type="radio" name="branch" value="CSE">CSE
+<input type="radio" name="branch" value="AIML">AIML
+<input type="radio" name="branch" value="ECE">ECE
+<input type="radio" name="branch" value="DS">DS <br><br>
+
+<label for="city">select city
+</label>
+<select id="city" >
+<option value="Delhi">Delhi</option>
+<option value="Mumbai">Mumbai</option>
+<option value="Kolkata">Kolkata</option>
+<option value="Bengaluru">Bengaluru</option>
+<option value="Chennai">Chennai</option>
+</select><br><br>
+<label for="address">Address : </label>
+<textarea id="address" name="Adress" placeholder="Mention Your Adress"></textarea>
+
+<br><br>
+<input type="submit" value="Register">
+<input type="reset" value="clear all">
+
+   </form>
+</body>
+</html>
